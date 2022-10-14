@@ -248,7 +248,7 @@ header{
 footerr{
     grid-area: footer;
 }
-menu{
+menu{ grid-area: menu;
     grid-area: menu;
 }
 productos{
