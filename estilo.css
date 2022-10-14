@@ -254,3 +254,9 @@ menu{ grid-area: menu;
 productos{
     grid-area: productos;
 }
+
+.responsive{
+    flex-wrap: wrap;
+    min-width: 300px;
+    margin-bottom: opx;
+}
