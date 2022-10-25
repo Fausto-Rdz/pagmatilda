@@ -260,3 +260,7 @@ productos{
     min-width: 300px;
     margin-bottom: opx;
 }
+.lista {
+    background-color: black;
+    border: 2px solid red;
+}
