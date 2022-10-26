@@ -169,7 +169,7 @@ footer {
 
 
 footer a {
-    padding: 0px 40px;
+    padding: 10px 40px;
     color: white;
 }
 
@@ -260,7 +260,25 @@ productos{
     min-width: 300px;
     margin-bottom: opx;
 }
-.lista {
-    background-color: black;
+
+.separarmapa{
+    padding: 10px 0px 10px 0px; 
+}
+.contenedor{
+    width: 80%;
+max-width: 1000px;
+margin: 0 auto ;
+overflow: hidden;
+}
+.main{
+    width: 55% ;
+    border: 2px solid red;
+}
+.headerr{
+    width: 25%;
+    border: 2px solid red;
+}
+.footeer{
+    width: 20%;
     border: 2px solid red;
 }
