@@ -261,11 +261,13 @@ productos{
     background-color: black;
     border: 2px solid red;
 }
+.inicio {padding: 0;}
+
 /*vista mobile */
  @media screen and (max-widht: 800px) {
-.inicio width: 100;
+.inicio { width: 100%;}
  } 
  .inicio {padding: 0;}
  @media screen and (max-widht: 400px) {
-    .inicio width: 100;
+   .inicio{ width: 100%;}
      } 
