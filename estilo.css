@@ -262,20 +262,5 @@ productos{
     border: 2px solid red;
 }
 .inicio {padding: 0;}
-.contenedor{
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
-    overflow: hidden;
-}
 
 /*vista mobile */
- @media screen and (max-widht: 800px) {
-.inicio { width: 100%;}
-.navv{ width: 100%;}
- } 
- .inicio {padding: 0;}
- @media screen and (max-widht: 400px) {
-  .contenedor{width: 100%;}
-     } 
-     .navv{display: none;}
