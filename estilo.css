@@ -7,9 +7,6 @@
 /* imagenes*/
 
 /*-- PRODUCTOS DEL INICIO --*/
-.inicio{
-    
-}
 .incio__productos {
     display: flex;
     flex-direction: column;
@@ -266,5 +263,9 @@ productos{
 }
 /*vista mobile */
  @media screen and (max-widht: 800px) {
-    .inicio
- }
+.inicio width: 100;
+ } 
+ .inicio {padding: 0;}
+ @media screen and (max-widht: 400px) {
+    .inicio width: 100;
+     } 
