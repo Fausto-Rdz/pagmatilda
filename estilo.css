@@ -7,6 +7,9 @@
 /* imagenes*/
 
 /*-- PRODUCTOS DEL INICIO --*/
+.inicio{
+    
+}
 .incio__productos {
     display: flex;
     flex-direction: column;
@@ -255,12 +258,13 @@ productos{
     grid-area: productos;
 }
 
-.responsive{
-    flex-wrap: wrap;
-    min-width: 300px;
-    margin-bottom: opx;
-}
+
+
 .lista {
     background-color: black;
     border: 2px solid red;
 }
+/*vista mobile */
+ @media screen and (max-widht: 800px) {
+    .inicio
+ }
