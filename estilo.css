@@ -146,10 +146,12 @@ header ul {
 
     /* fin de barra */
 }
-.centrarr{
+
+.centrarr {
     text-align: center;
     padding: 15px;
 }
+
 .centrar {
     text-align: center;
     padding: 80px;
@@ -201,57 +203,66 @@ footer a {
 .faceimg {
     height: 20px;
 }
-.separar{
+
+.separar {
     padding-top: 10px;
 }
-.padre__alinear{
+
+.padre__alinear {
     display: flex;
 }
 
 /*grids */
-#gridss{
-display: grid;
-grid-template-areas: 
-"header"
-"productos"
-"footer";
-grid-template-rows: 25% 55% 20%;
-grid-template-columns: 100%;
-grid-column-gap: 20px;
-grid-row-gap: 5px ;
-height: 100vh;
-margin: 0;
+#gridss {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "productos"
+        "footer";
+    grid-template-rows: 25% 55% 20%;
+    grid-template-columns: 100%;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+    height: 100vh;
+    margin: 0;
 
 }
+
 #grilla {
-display: grid;
-grid-template-areas: 
-"header "
-"productos  "
-" menu "
-"footer";
+    display: grid;
+    grid-template-areas:
+        "header "
+        "productos  "
+        " menu "
+        "footer";
 
-grid-template-rows: 20% 35% 25% 20%;
-grid-template-columns: 100%;
-grid-column-gap: 20px;
-grid-row-gap: 5px ;
-height: 100vh;
-margin: 0;
+    grid-template-rows: 20% 35% 25% 20%;
+    grid-template-columns: 100%;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+    height: 100vh;
+    margin: 0;
 }
-.border{
+
+.border {
     border: 2px solid red;
 }
-header{
+
+header {
     grid-area: header;
-    
+
 }
-footerr{
+
+footerr {
     grid-area: footer;
 }
-menu{ grid-area: menu;
+
+menu {
+    grid-area: menu;
     grid-area: menu;
 }
-productos{
+
+productos {
     grid-area: productos;
 }
 
@@ -261,6 +272,33 @@ productos{
     background-color: black;
     border: 2px solid red;
 }
-.inicio {padding: 0;}
+
+.inicio {
+    padding: 0;
+}
 
 /*vista mobile */
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 55% 20%;
+    border: 2px solid red;
+
+}
+.contenedor .contenido {
+    grid-column: 1fr;
+}
+
+@media screen and (max-widht:768px) {
+    .contenedor .contenido {
+        grid-column: 1/-1;
+    }
+
+    .header {
+        grid-column: 1/-1;
+    }
+}
