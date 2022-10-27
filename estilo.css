@@ -277,28 +277,3 @@ productos {
     padding: 0;
 }
 
-/*vista mobile */
-.contenedor {
-    width: 90%;
-    max-width: 1000px;
-    margin: 20px auto;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 25% 55% 20%;
-    border: 2px solid red;
-
-}
-.contenedor .contenido {
-    grid-column: 1fr;
-}
-
-@media screen and (max-widht:768px) {
-    .contenedor .contenido {
-        grid-column: 1/-1;
-    }
-
-    .header {
-        grid-column: 1/-1;
-    }
-}
