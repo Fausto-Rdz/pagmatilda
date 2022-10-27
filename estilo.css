@@ -277,3 +277,15 @@ productos {
     padding: 0;
 }
 
+@media screen and (max-width:800px) {
+    .contenido{
+        max-width: auto;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .contenido{
+        max-width: auto;
+    }
+    
+}
