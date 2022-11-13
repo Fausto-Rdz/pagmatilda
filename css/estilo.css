@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* imagenes*/
+
+/*-- PRODUCTOS DEL INICIO --*/
+.incio__productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio__productos--primerfila {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 30px 30px;
+}
+
+.incio__productos--primero {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.inicio__productos--primero-img {
+    height: 200px;
+}
+
+.inicio__productos--primero-text {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.inicio__productos--primero-precio {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.incio__productos--segundo {
+    display: flex;
+    justify-content: center;
+}
+
+.inicio__productos--segundo-img {
+    height: 200px;
+}
+
+.inicio__productos--segundo-text {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.inicio__productos--segundo-precio {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.incio__productos--tercero {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inicio__productos--tercero-img {
+    height: 200px;
+}
+
+.inicio__productos--tercero-text {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.inicio__productos--tercero-precio {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+
+/* fin de imagenes*/
+
+
+.titulo {
+    color: BLACK;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgb(173, 53, 53);
+}
+
+/*-- LOGO --*/
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 50px;
+}
+
+.logo-img {
+    height: 100px;
+}
+
+/*-- BARRA DE NAVEGACION --*/
+
+nav {
+    border: solid 2px black;
+    border-color: black;
+    background-color: white;
+    padding: 10px 50px;
+    margin: 40px 20px 5px;
+}
+
+nav a {
+    padding: 0px 40px;
+    color: black;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.seciondark {
+    color: white;
+    background-color: black;
+
+    /* fin de barra */
+}
+
+.centrarr {
+    text-align: center;
+    padding: 15px;
+}
+
+.centrar {
+    text-align: center;
+    padding: 80px;
+}
+
+
+
+
+/*-- PIE DE PAGINA --*/
+footer {
+    background-color: rgb(173, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+footer a {
+    padding: 0px 40px;
+    color: white;
+}
+
+
+
+
+
+/*-- LOGOS DEL FOOTER --*/
+.logos-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 5px 10px;
+}
+
+.instagram {
+    padding: 1px 5px 0px;
+}
+
+.instagram-img {
+    height: 30px;
+}
+
+.FACELOGO {
+    display: flex;
+    padding: 5px 5px 0px;
+}
+
+.faceimg {
+    height: 20px;
+}
+
+.separar {
+    padding-top: 10px;
+}
+
+.padre__alinear {
+    display: flex;
+}
+
+/*grids */
+#gridss {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "productos"
+        "footer";
+    grid-template-rows: 25% 55% 20%;
+    grid-template-columns: (auto-fill,minmax(15rem,1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+    height: 100vh;
+    margin: 0;
+
+}
+
+#grilla {
+    display: grid;
+    grid-template-areas:
+        "header "
+        "productos  "
+        " menu "
+        "footer";
+
+    grid-template-rows: 20% 35% 25% 20%;
+    grid-template-columns: 100%;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+    height: 100vh;
+    margin: 0;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+header {
+    grid-area: header;
+
+}
+
+footerr {
+    grid-area: footer;
+}
+
+menu {
+    grid-area: menu;
+    grid-area: menu;
+}
+
+productos {
+    grid-area: productos;
+}
+
+
+
+.lista {
+    background-color: black;
+    border: 2px solid red;
+}
+
+.inicio {
+    padding: 0;
+}
+
+@media screen and (max-width:800px) {
+    .contenido{
+        max-width: auto;
+        
+    }
+    .barranav{
+        max-width: auto;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .contenido{
+        max-width: auto;
+    }
+    .barranav{
+        max-width: auto;
+    }
+    
+}
