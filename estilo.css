@@ -237,11 +237,18 @@ footer a {
         "footer";
 
     grid-template-rows: 20% 35% 25% 20%;
-    grid-template-columns: 100%;
+    grid-template-columns: (auto-fill,minmax(15rem,1fr));
     grid-column-gap: 20px;
     grid-row-gap: 5px;
     height: 100vh;
     margin: 0;
+}
+.responsable{
+    display: grid;
+    gap: 1rem;;
+    grid-template-rows: 20% 35% 25% 20%;
+    grid-template-columns: repeat(auto-film, minwax(15rem, 1fr));
+
 }
 
 .border {
@@ -276,7 +283,7 @@ productos {
 .inicio {
     padding: 0;
 }
-
+/*
 @media screen and (max-width:800px) {
     .contenido{
         max-width: auto;
@@ -295,4 +302,4 @@ productos {
         max-width: auto;
     }
     
-}
+} */
