@@ -305,5 +305,6 @@ productos {
 } */
 .letraa{
     font-family: Arial, Helvetica, sans-serif;
-   font-size: 32px;
+   font-size: 18px; 
+   list-style: none;
 }
